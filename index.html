@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>मागणी Form</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<form id="demand-form" action="https://script.google.com/macros/s/AKfycbxaUMgnVI5f9-Ug33YPM_kpK2saaJsyKwHBXwloYYs_03IEXGr5BxqzpyB319P4C2uU/exec" method="post">
+		<h2>मागणी</h2>
+		<label for="uname">Name (नाव):</label>
+		<input type="text" id="uname" name="uname" required autofocus><br><br>
+		<label for="mobile_number">Mobile Number (मोबाईल क्रमांक):</label>
+		<input type="tel" id="mobile_number" name="mobile_number" maxlength="10" required autofocus><br><br>
+		<label for="demand">demand (मागणी):</label>
+		<textarea id="demand" name="demand" required autofocus></textarea><br><br>
+		<div class="buttons">
+			<button id="clickButton">SUBMIT</button>
+			<button id="clearButton" name="clear">CLEAR</button>
+		</div>
+	</form>
+	<footer>
+		<p>&copy; Digispect Technology-2024.</p>
+	</footer>
+</body>
+</html>
